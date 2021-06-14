@@ -83,3 +83,10 @@ function! OpenTerminal()
   resize 10
 endfunction
 nnoremap <leader>nn :call OpenTerminal()<CR>t
+
+"configure telescope to ignore node_modules from search
+lua << EOF
+require('telescope').setup{
+defaults = { file_ignore_patterns = {"node_modules"} }
+}
+EOF
