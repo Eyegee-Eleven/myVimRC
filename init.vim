@@ -62,6 +62,10 @@ highlight Normal guibg=none
 let mapleader = " "
 "Remaps
 nnoremap <leader>ps :lua require('telescope.builtin').grep_string({ search = vim.fn.input("Grep For >")}) <CR>
+" Find files using Telescope command-line sugar.
+nnoremap <leader>ff <cmd>Telescope find_files<cr>
+nnoremap <leader>fb <cmd>Telescope buffers<cr>
+nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 "Exit insert
 inoremap jj <ESC>
 
