@@ -1,4 +1,4 @@
-" Cecil Montemayors Vim RC 
+" The vim RC to rule them all Vim RC 
 " Setup normal human tabs to remember how these work :help 'name' all pulled
 " from :options
 set tabstop=4 softtabstop=4
