@@ -68,6 +68,8 @@ nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 "Exit insert
 inoremap jj <ESC>
+"Auto Format Document with LSP
+nnoremap <leader>fd <cmd>LspDocumentFormat<cr>
 
 "Setup Itegrated terminal
 " open new split panes to right and below
