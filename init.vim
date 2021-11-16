@@ -52,6 +52,10 @@ Plug 'mattn/vim-lsp-settings'
 Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/asyncomplete-lsp.vim'
 
+"C# is hawt, but this is how you make it SPICY
+Plug 'OmniSharp/omnisharp-vim'
+
+
 call plug#end()
 
 "Set default color scheme and background transparent
